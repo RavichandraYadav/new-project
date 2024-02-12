@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #gen{
+            color: red;
+        }
+        legend{
+            color: white;
+        }form{
+            margin: 120px 400px 300px 500px;
+        }
+        body{
+            height: 100vh;
+            width: 0vw;
+            background-image: url("../HTML/Images/whitebk");
+            background-repeat: no-repeat;
+            background-size: 100vw 100vh;
+        }
+        div{
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="" autocomplete="off" method="get" target="_blank">
+        <fieldset style="width: 400px;color:rgb(0, 5, 19) ; border: 2px solid black;">
+        <legend>SignUp Page</legend>
+        <table>
+                <tr>
+                    <td>
+                        <lable for="ra">Name :</lable>
+                    </td>
+                    <td><input type="text" id="ra" name="name" placeholder="Name" autofocus required> 
+                    </td>
+                   
+                </tr>
+                <tr><td><div></div></td></tr>
+                <tr>
+                    <td>
+                        <lable for="vi">Email :</lable></td>
+                    <td><input type="email" id="vi" name="email" placeholder="email" required> 
+                    </td>
+                </tr>
+                <tr><td><div></div></td></tr>
+                <tr>
+                    <td>
+                        <lable for="pass">Password :</lable></td>
+                    <td><input type="password" id="pass" required name="password" placeholder="password"> 
+                    </td>
+                </tr>
+                <tr><td><div></div></td></tr>
+                <tr>
+                    <td>
+                        <lable for="con">Confirm Password :</lable></td>
+                    <td><input type="password" id="con" name="conpassword" required
+                            placeholder="confirm password"> 
+                    </td>
+                </tr>
+                <tr><td><div></div></td></tr>
+                <tr>
+                    <td>
+                        <lable for="ji">Mobile :</lable> </td>
+                    <td><input type="tel" id="ji" name="mobile" placeholder="mobile" required>
+                    </td>
+                </tr>
+                <tr><td><div></div></td></tr>
+                <tr>
+                    <td>
+                        <lable for="ki">DOB :</lable> </td>
+                    <td><input type="date" id="ki" name="dob" placeholder="DateOfBirth" required>
+                    </td>
+                </tr>
+                <tr><td><div></div></td></tr>
+                <tr >
+                    <td>
+                        <lable for="gen">Gender :</lable>
+                    </td>
+                    <td id="gen"><input type="radio"  value="male"  name="gender">Male 
+                        <input type="radio" value="female"  name="gender">Female
+                        <input type="radio" value="others"  name="gender">Others
+                    </td>
+                </tr>
+                 <tr><td><div></div></td></tr>
+                <tr>
+                    <td>
+                        <button type="reset">Cancle</button>
+                       </td>
+                    <td> <button type="submit" >Submit</button>
+                    </td>
+                </tr>
+        </table>
+        </fieldset>
+    </form>
+
+</body>
+</html>
